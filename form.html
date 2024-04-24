@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Edelmira del Pando</title>
+	<link rel="icon" href="images.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+	<header>
+		<a href="index.html">
+			<img class="centrar-img" src="https://www.cebaedelmiradelpando.edu.pe/aulavirtual/pluginfile.php/1/theme_degrade/logo_color/1711219673/Pando.jpg">
+			
+		</a>
+	
+	</header>
+
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a> </li>
+			<li><a href="propuesta.html">Logros de aprendizaje</a> </li>
+			<li><a href="actividades.html">Actividades</a> </li>
+			<li><a href="form.html">Formulario</a> </li>
+			<li><a href="matricula.html">Matricula</a> </li>
+			<li><a href="tienda.html">Tienda</a> </li>
+			<li><a href="contactos.html">Contactos</a> </li>
+		</ul>
+	</nav>
+		<section>
+            <h1>Datos de padres de familia</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div>
+                        <label for="nombre">Ingrese su nombre</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div><br>
+                    <div>
+                        <label for="email">Ingrese su correo</label>
+                        <input type="email" id="email" name="email">
+                    </div><br>
+                    <div>
+                        <label for="date">Ingrese su fecha de nacimiento</label>
+                        <input type="date" id="date" name="date">
+                    </div><br>
+                    <div>
+                        <label for="numero">Ingrese su número telefonico</label>
+                        <input type="number" id="numero" name="numero">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tú género</legend>
+                    <label><input type="radio" name="genero">Hombre</label>
+                    <label><input type="radio" name="genero">Mujer</label>
+                    <label><input type="radio" name="genero">Otro</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Procedencia</legend>
+                    <label for="country">Escoge tú distrito</label>
+                    <select name="country" id="country">
+                        <optgroup label="Lima">
+                            <option value="pe">Ate</option>
+                            <option value="co">Chaclacayo</option>
+                            <option value="ve">Santa Anita</option>
+                            <option value="cl">Chosica</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Envía su comentario...</legend>
+                    <textarea name="mensaje" id="" cols="40" rows="4"></textarea>
+                </fieldset>
+                <br>
+                <div>
+                    <input type="submit" id="registro" value="Registrar">
+                </div><br>
+            </form>
+		</section>
+		
+		<footer>
+			<p id="pie" class="centrado negrita">Derechos reservados por el autor - 2024</p>
+		</footer>
+	
+	</body>
+</html>
